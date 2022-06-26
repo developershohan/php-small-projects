@@ -1,0 +1,8 @@
+//calander of days
+
+$days = date("t"); //all days
+
+$i = null ;
+for ($i ;  $i <= $days; $i++) { 
+   echo $i . "<br>" ;
+}
