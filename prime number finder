@@ -1,0 +1,17 @@
+$my_arr = [12,34,2,6,78,3];
+
+foreach ($my_arr as $sin_val) {
+    $is_prime = true;
+    
+    for ($i = 2; $i <= $sin_val - 1 ; $i++) { 
+        if ($sin_val % $i == 0) {
+            $is_prime = false;
+        }    
+    }
+    if ($is_prime) {
+        echo "$sin_val" . " is prime number <br>" ;
+    } else {
+        # code...
+        echo "$sin_val" . " is not prime number <br>";
+    }
+}
