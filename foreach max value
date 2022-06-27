@@ -1,0 +1,8 @@
+$my_arr= [0,10,80,67,60,89,99,91,56,45,30,95,83];
+$max_val = 0;
+foreach ($my_arr as $value) {
+    if ($value > $max_val) {
+        $max_val = $value;
+    }
+}
+echo $max_val;
